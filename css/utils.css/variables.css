@@ -1,0 +1,19 @@
+/* ---ROOTS--- */
+
+:root {
+    --main-text-font: "Roboto", sans-serif;
+    --secondary-text-font: "Raleway", sans-serif;
+    --main-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --additional-text-color: #FFF;
+    --white-background-color: #FFF;
+    --navy-background-color: #2E2F42;
+    --additional-background-color: #F4F4FD;
+    --cornflower-color: #E7E9FC;
+    --dairy-color: #FCFCFC;
+    --purple-color: #4D5AE5;
+    --ocean-button-color: #404BBF;
+    --lightslate-color: #8E8F99;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    --duration: 250ms;
+}
