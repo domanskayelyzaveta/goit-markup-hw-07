@@ -2,9 +2,6 @@
 
 /* ----GENERAL---- */
 
-
-
-
 /* -----HEADER---- */
 
 /* ----MAIN---- */
@@ -487,6 +484,11 @@ margin-bottom: 8px;
 .staff-icons-list {
     width: 40px;
     height: 40px;    
+}
+
+
+.web-logo-footer {
+    color: #F4F4FD;
 }
 
 .icons-list-footer {

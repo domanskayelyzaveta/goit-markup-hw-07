@@ -43,17 +43,6 @@
           </ul>
         </nav>
 
-        <button class="open-menu-burger-button">
-          <svg
-            class="burger-button-icon"
-            width="32"
-            height="32"
-            aria-label="open-mobile-menu-icon"
-          >
-            <use href="images/icons.svg#icon-menu-burger"></use>
-          </svg>
-        </button>
-
         <address class="address">
           <ul class="address-list list">
             <li class="address-iteam">
@@ -68,6 +57,16 @@
             </li>
           </ul>
         </address>
+        <button
+          class="burger-bnt js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="open-mobile-menu-icon"
+        >
+          <svg class="burger-icon" width="30" height="19">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -75,8 +74,7 @@
         SECTION_1
       =========== -->
 
-     <main> 
-  
+    <!-- <main>
       <section class="hero">
         <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
@@ -84,13 +82,13 @@
             Order Service
           </button>
         </div>
-      </section> 
+      </section> -->
 
-    <!-- ===========
+      <!-- ===========
           SECTION_2
       =========== -->
 
-    <!-- <section class="second-section">
+      <!-- <section class="second-section">
         <div class="container">
           <h2 class="visually-hidden description">Description</h2>
           <ul class="second-section-list list">
@@ -146,11 +144,11 @@
         </div>
       </section> -->
 
-    <!-- ===========
+      <!-- ===========
           SECTION_3
       =========== -->
 
-    <!-- <section class="our-service-section">
+      <!-- <section class="our-service-section">
         <div class="container">
           <h2 class="title-what-we-are-doing">What are we doing</h2>
           <ul class="our-service-list list">
@@ -182,11 +180,11 @@
         </div>
       </section> -->
 
-    <!-- ===========
+      <!-- ===========
           SECTION_4
       =========== -->
 
-    <!-- <section class="team-section">
+      <!-- <section class="team-section">
         <div class="container">
           <h2 class="our-team-title">Our Team</h2>
           <ul class="team-photo-list list">
@@ -362,10 +360,10 @@
         </div>
       </section> -->
 
-    <!-- =====SECTION 5=====
+      <!-- =====SECTION 5=====
       =================== -->
 
-    <!-- <section class="logos-section">
+      <!-- <section class="logos-section">
         <div class="container logo-company-div">
           <h2 class="customers-title">Customers</h2>
           <ul class="logo-company list">
@@ -416,10 +414,10 @@
       </section>
     </main> -->
 
-    <!-- ===========
+      <!-- ===========
           FOOTER
       =========== -->
-    <footer class="footer-figuration">
+      <!-- <footer class="footer-figuration">
       <div class="footer-container container">
         <div class="logo-footer-div">
           <a class="logo-footer-link logo-link link" href="./index.html"
@@ -462,12 +460,12 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
 
-    <!-- ===SUBSCRIBE=====
+      <!-- ===SUBSCRIBE=====
         =================
          -->
-    <div class="send-footer-form">
+      <!-- <div class="send-footer-form">
           <p class="subscribe-title-form">Subscribe</p>
           <form class="send-form-footer">
             <label class="send-footer-label">
@@ -487,29 +485,29 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <!-- ===MODAL====
+      <!-- ===MODAL====
     ============ -->
 
-    <div class="modal is-hidden" data-modal>
+      <!-- <div class="modal is-hidden" data-modal>
       <div class="backdrop">
         <button class="close-button" type="button" data-modal-close>
           <svg class="modal-btn-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close-cross"></use>
           </svg>
-        </button>
+        </button> -->
 
-    <!-- =====FORM======
+      <!-- =====FORM======
         ============== -->
 
-    <p class="leave-your-contacts">
+      <!-- <p class="leave-your-contacts">
           Leave your contacts and we will call you back
-        </p>
+        </p> -->
 
-    <!-- ====INPUT_1====
+      <!-- ====INPUT_1====
           =============== -->
-
+      <!-- 
     <form>
           <div class="form-div">
             <label class="field-name" for="user-name">Name</label>
@@ -530,12 +528,12 @@
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
             </div>
-          </div>
+          </div> -->
 
-    <!-- ====INPUT_2====
+      <!-- ====INPUT_2====
           =============== -->
 
-    <div class="form-div">
+      <!-- <div class="form-div">
             <label class="field-name" for="phone-number">Phone</label>
             <div class="service-request-wrapper">
               <input
@@ -554,11 +552,11 @@
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-          </div>
+          </div> -->
 
-    <!-- ====INPUT_3====
+      <!-- ====INPUT_3====
           =============== -->
-
+      <!-- 
     <div class="form-div">
             <label class="field-name" for="users-email-adress">Email</label>
             <div class="service-request-wrapper">
@@ -578,11 +576,11 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-          </div>
+          </div> -->
 
-    <!-- ===TEXTAREA==== -->
+      <!-- ===TEXTAREA==== -->
 
-    <div class="text-area-div">
+      <!-- <div class="text-area-div">
             <label class="field-name" for="user-comment">Comment</label>
             <textarea
               class="order-service-comment"
@@ -590,11 +588,11 @@
               id="user-comment"
               placeholder="Text input"
             ></textarea>
-          </div>
+          </div> -->
 
-    <!-- ====CHECKBOX==== -->
+      <!-- ====CHECKBOX==== -->
 
-    <div class="checkbox-div">
+      <!-- <div class="checkbox-div">
       <input
         class="checkbox-policy visually-hidden"
         type="checkbox"
@@ -611,17 +609,15 @@
         I accept the terms and conditions of the&nbsp;
         <a href="" class="review-form-policy-link">Privacy Policy</a>
       </label>
-    </div>
+    </div> -->
 
-    =====BUTTON=====
+      <!-- =====BUTTON=====
           ================ -->
 
-    <button class="send-request-button" type="submit">Send</button>
+      <button class="send-request-button" type="submit">Send</button>
         </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
-  </body>
-</html>
   </body>
 </html>
