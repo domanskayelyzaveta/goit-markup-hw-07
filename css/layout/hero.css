@@ -1,0 +1,123 @@
+   .container {
+    max-width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+   }
+
+   .hero {
+    margin: 0 auto;
+    padding: 188px 0;
+    width: 100%;
+    background-size: cover;
+    color: var(--white-background-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/hero/Dark-bg-mobile.jpg");
+}
+
+
+.title-hero {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    color: var(--additional-text-color);
+    text-align: center;
+    max-width: 360px;
+}
+
+.main-button {
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    line-height: 1.5;
+    background-color: var(--purple-color);
+    color: var(--additional-text-color);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.main-button:hover,
+.main-button:focus {
+    background-color: var(--ocean-button-color);
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/hero/Dark-bg-mobile@2x.jpg");
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../../images/hero/Dark-bg-tablet.jpg");;
+    }
+
+    .title-hero {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 72px;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+        color: var(--additional-text-color);
+        text-align: center;
+        min-width: 496px;
+    }
+        .main-button {
+        display: block;
+        margin: 0 auto;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 16px 32px;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.64px;
+        line-height: 1.5;
+        background-color: var(--purple-color);
+        color: var(--additional-text-color);
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .main-button:hover,
+    .main-button:focus {
+        background-color: var(--ocean-button-color);
+    }
+
+
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/hero/Dark-bg-tablet@2x.jpg");
+    }
+}

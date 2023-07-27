@@ -61,7 +61,7 @@
           class="burger-bnt js-open-menu"
           type="button"
           aria-expanded="false"
-          aria-controls="open-mobile-menu-icon"
+          aria-controls="mobile-menu"
         >
           <svg class="burger-icon" width="30" height="19">
             <use href="./images/icons.svg#icon-burger"></use>
@@ -70,11 +70,12 @@
       </div>
     </header>
 
+
     <!-- ===========
         SECTION_1
       =========== -->
 
-    <!-- <main>
+    <main>
       <section class="hero">
         <div class="container">
           <h1 class="title-hero">Effective Solutions for Your Business</h1>
@@ -82,7 +83,7 @@
             Order Service
           </button>
         </div>
-      </section> -->
+      </section> 
 
     <!-- ===========
           SECTION_2
@@ -498,19 +499,18 @@
             <use href="./images/icons.svg#icon-close-cross"></use>
           </svg>
         </button> -->
-      
 
-        <!-- =====FORM======
+    <!-- =====FORM======
         ============== -->
 
-        <!-- <p class="leave-your-contacts">
+    <!-- <p class="leave-your-contacts">
           Leave your contacts and we will call you back
         </p> -->
 
-        <!-- ====INPUT_1====
+    <!-- ====INPUT_1====
       ===============  -->
 
-        <!-- <form>
+    <!-- <form>
           <div class="form-div">
             <label class="field-name" for="user-name">Name</label>
             <div class="service-request-wrapper">
@@ -531,12 +531,11 @@
               </svg>
             </div>
           </div> -->
-          
 
-          <!-- ====INPUT_2====
+    <!-- ====INPUT_2====
           =============== -->
 
-          <!-- <div class="form-div">
+    <!-- <div class="form-div">
             <label class="field-name" for="phone-number">Phone</label>
             <div class="service-request-wrapper">
               <input
@@ -558,10 +557,10 @@
           </div>
          -->
 
-          <!-- ====INPUT_3====
+    <!-- ====INPUT_3====
           =============== -->
 
-          <!-- <div class="form-div">
+    <!-- <div class="form-div">
             <label class="field-name" for="users-email-adress">Email</label>
             <div class="service-request-wrapper">
               <input
@@ -582,9 +581,9 @@
             </div>
           </div> -->
 
-          <!-- ===TEXTAREA==== -->
+    <!-- ===TEXTAREA==== -->
 
-          <!-- <div class="text-area-div">
+    <!-- <div class="text-area-div">
             <label class="field-name" for="user-comment">Comment</label>
             <textarea
               class="order-service-comment"
@@ -594,8 +593,8 @@
             ></textarea>
           </div> -->
 
-          <!-- ====CHECKBOX==== -->
-<!-- 
+    <!-- ====CHECKBOX==== -->
+    <!-- 
           <div class="checkbox-div">
             <input
               class="checkbox-policy visually-hidden"
@@ -615,13 +614,82 @@
             </label>
           </div> -->
 
-          <!-- =====BUTTON=====
+    <!-- =====BUTTON=====
           ================ -->
 
-          <!-- <button class="send-request-button" type="submit">Send</button> -->
-        </form>
+    <!-- <button class="send-request-button" type="submit">Send</button> -->
+    </form>
       </div>
     </div>
+ <div class="mobile-menu js-menu-container">
+   <button class="close-button-mobile-modal js-close-menu" type="button">
+        <svg class="mobile-modal-btn-close" width="8" height="8">
+          <use href="./images/icons.svg#icon-close-cross"></use>
+        </svg>
+      </button>
+  <nav class="mobile-menu-nav">
+    <ul class="mobile-menu-modal-window list">
+    <li class="mobile-menu-list">
+      <a class="mobile-menu-list-link link" href="">Studio</a>
+    </li>
+    <li class="mobile-menu-list">
+      <a class="mobile-menu-list-link link" href="">Portfolio</a>
+    </li>
+    <li class="mobile-menu-list">
+      <a class="mobile-menu-list-link link" href="">Contacts</a>
+    </li>
+    </ul>
+  </nav>
+  <address>
+    <ul class="contacts-mobile-menu list">
+      <li>
+        <a class="contact-mobile-modal link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+      </li>
+      <li>
+        <a class="email-mobile-modal link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+    </ul>
+    <ul class="social-list-mobile-modal list">
+    <li class="icons-list-mobile-modal">
+      <a class="social-link-mobile-modal" href="">
+        <svg class="social-icons-mobile-modal" width="24" height="24">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="icons-list-mobile-modal">
+      <a class="social-link-mobile-modal" href="">
+        <svg class="social-icons-mobile-modal" width="24" height="24">
+          <use href="./images/icons.svg#icon-twitter"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="icons-list-mobile-modal">
+      <a class="social-link-mobile-modal" href="">
+        <svg class="social-icons-mobile-modal" width="24" height="24">
+          <use href="./images/icons.svg#icon-facebook"></use>
+        </svg>
+      </a>
+    </li>
+    <li class="icons-list-mobile-modal">
+      <a class="social-link-mobile-modal" href="">
+        <svg class="social-icons-mobile-modal" width="24" height="24">
+          <use href="./images/icons.svg#icon-linkedin"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+  </address>
+  
+</div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
