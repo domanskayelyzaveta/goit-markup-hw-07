@@ -1,0 +1,77 @@
+.about-us {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    color: #2E2F42;
+    margin-bottom: 8px;
+
+}
+
+.about-us-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    font-weight: 500px;
+    color: #434455;
+}
+
+.second-section-icon {
+    display: none;
+}
+
+.second-section-items:not(:last-child) {
+    margin-bottom: 72px;
+}
+
+.second-section-list {
+    margin-bottom: 96px;
+}
+
+
+
+
+
+/* ======TABLET======== */
+
+@media screen and (min-width: 768px) {
+ 
+ .goals-container {
+    min-width: 768px;
+
+    }
+ .second-section-icon {
+    display: none;
+ }
+
+ .second-section {
+    width: 100%;
+ }
+
+ .second-section-list {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .second-section-items {
+    max-width: calc((100% - 24px) / 2);
+    
+
+}
+ .about-us {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    margin-bottom: 8px;
+ }
+
+ .about-us-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+ }
+
+}

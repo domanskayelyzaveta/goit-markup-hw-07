@@ -8,6 +8,7 @@
 
    .hero {
     margin: 0 auto;
+    margin-bottom: 96px;
     padding: 188px 0;
     width: 100%;
     background-size: cover;
