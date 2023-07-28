@@ -1,0 +1,62 @@
+
+.what-we-are-doing-section {
+    display: none;
+}
+
+
+/* ======TABLET======== */
+
+@media screen and (min-width: 768px) {
+.what-we-are-doing-section {
+    display: none;
+ } 
+}
+
+
+/* ======LAPTOP======== */
+
+@media screen and (min-width: 1200px){
+    .what-we-are-doing-section {
+        display: block;
+        min-width: 1158px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .our-service-section {
+        padding-bottom: 90px;
+    }
+
+    .title-what-we-are-doing {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 2px;
+        color: var(--main-text-color);
+        margin-bottom: 72px;
+    }
+
+    .our-service-list {
+        display: flex;
+        gap: 24px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        width: calc((100% - 24px * 2px) / 3);
+    }
+
+    .photo-service-list {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+        color: var(--navy-background-color);
+
+    }
+}
+
+

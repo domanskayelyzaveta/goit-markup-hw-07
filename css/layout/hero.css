@@ -1,10 +1,3 @@
-   .container {
-    max-width: 428px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-   }
 
    .hero {
     margin: 0 auto;
@@ -69,9 +62,11 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 
 @media screen and (min-width: 768px) {
+
+
     .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url("../../images/hero/Dark-bg-tablet.jpg");;
+        url("../../images/hero/Dark-bg-tablet.jpg");
     }
 
     .title-hero {
@@ -86,6 +81,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
         text-align: center;
         min-width: 496px;
     }
+
         .main-button {
         display: block;
         margin: 0 auto;
