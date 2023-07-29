@@ -1,13 +1,28 @@
-@import "./utils.css/variables.css";
+/* ======BASE======= */
 @import "./base/common.css";
 @import "./base/container.css";
-@import "./layout/mobile-menu.css";
+
+
+/* =====LAYOUTS===== */
 @import "./layout/header.css";
-@import "./layout/hero.css";
-@import "./layout/section-two.css"; 
-@import "./layout/what-we-are-doing-section.css";
-@import "./layout/our-team-section.css"; 
-@import "./layout/logos-section.css"; 
 @import "./layout/footer.css";
 
+
+/* ====COMPONENTS==== */
+@import "./components/hero.css";
+@import "./components/what-we-are-doing-section.css";
+@import "./components/section-two.css";
+@import "./components/our-team-section.css";
+@import "./components/logos-section.css";
+
+/* =====MODALS===== */
+@import "./modals/mobile-menu.css";
+@import "./modals/modal-w.css";
+
+/* =====UTILS===== */
+@import "./utils.css/variables.css";
+
+/* ====PORTFOLIO==== */
+
+@import "./components/portfolio.css";
 

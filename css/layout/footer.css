@@ -38,6 +38,7 @@
 }
 
 .footer-text {
+
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -99,7 +100,7 @@
     fill: var(--additional-background-color);
 }
 
-/* =======subscribe-title-form======= */
+/* =======subscribe-form======= */
 
 .subscribe-title-form {
     text-align: center;
@@ -111,9 +112,6 @@
     color: var(--additional-text-color);
 }
 
-.send-form-footer {
-   
-}
 
 .send-footer-form {
     display: flex;
@@ -133,11 +131,11 @@
     height: 40px;
     background-color: transparent;
     border-radius: 4px;
-    border: 1px solid #ffffff;
+    border: 1px solid #FFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     color: var(--additional-text-color);
     font-size: 12px;
-
+    opacity: 0.3;
     line-height: 1.5;
     letter-spacing: 0.48px;
     padding-left: 16px
@@ -185,3 +183,76 @@
     fill: #FFFFFF;
 }
 
+
+/* ======TABLET======== */
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin: 0 auto;
+        padding-left: 108px;
+    }
+
+    .send-footer-form {
+        display: inline-block;
+        max-width: 264px;
+        
+    }
+   
+    .send-btn-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .send-footer-label {
+        display: inline-block;
+        align-items: center;
+        
+    }
+
+    .send-form-footer {
+        display: flex;
+        gap: 24px;
+    }
+
+    .form-email {
+        width: 264px;
+        
+    }
+
+    .subscribe-title-form {
+        text-align: start;
+    }
+
+    .social-media-paragraph {
+        text-align: start;
+    }
+
+   .logo-footer-div {
+        display: inline;
+    }
+    
+} 
+
+/* ======LAPTOP======== */
+
+@media screen and (min-width: 1200px) {
+
+    .footer-container {
+        flex-wrap: nowrap;
+        gap: 0;
+        padding-left: 0;
+        align-items: baseline;
+    
+    }
+    .logo-footer-div {
+        margin-right: 120px;
+    }
+
+    .send-footer-form {
+        margin-left: 80px;
+    }
+}

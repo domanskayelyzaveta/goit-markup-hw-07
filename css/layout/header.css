@@ -137,7 +137,7 @@
    .address-list {
        color: var(--secondary-text-color);
        gap: 40px;
-}
+    }
 
    .contact {
        color: var(--secondary-text-color);
@@ -151,12 +151,12 @@
        transition-property: color;
        transition-duration: 250ms;
        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   }
+    }
 
    .contact:hover,
    .contact:focus {
        color: var(--ocean-button-color);
-   }
+    }
 
 
     .burger-bnt {
