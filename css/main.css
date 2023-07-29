@@ -1,3 +1,7 @@
+/* ====PORTFOLIO==== */
+
+@import "./components/portfolio.css";
+
 /* ======BASE======= */
 @import "./base/common.css";
 @import "./base/container.css";
@@ -22,7 +26,5 @@
 /* =====UTILS===== */
 @import "./utils.css/variables.css";
 
-/* ====PORTFOLIO==== */
 
-@import "./components/portfolio.css";
 
