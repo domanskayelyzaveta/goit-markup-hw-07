@@ -36,7 +36,7 @@
     color: var(--additional-text-color);
     border: 1px solid transparent;
 }
-
+/* 
 .social-link-footer {
     display: flex;
     justify-content: center;
@@ -48,12 +48,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.social-link-footer:hover,
+/* .social-link-footer:hover,
 .social-link-footer:focus {
     background-color: #31d0aa;
-}
+} */
 
 .service-list-mark {
     font-size: 16px;
@@ -62,7 +62,7 @@
     letter-spacing: 0.32px;
     color: var(--secondary-text-color);
 }
-
+/* 
 .footer-text {
     margin-bottom: 100px;
     font-size: 16px;
@@ -71,7 +71,7 @@
     letter-spacing: 0.32px;
     color: var(--additional-background-color);
     max-width: 296px;
-}
+} */
 
 .logo-footer-link {
     display: inline-block;
@@ -83,10 +83,9 @@
     color: var(--main-text-color);
 }
 
-.footer-container {
+/* .footer-container {
     display: flex;
-    align-items: baseline;
-}
+} */
 
 .logo-link {
     display: block;
@@ -104,7 +103,11 @@
 } 
 
 .logo-footer-div {
-    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 72px;
 }
 
 
@@ -176,7 +179,7 @@
     padding-top: 96px;
     padding-bottom: 120px;
 }
-
+/* 
 .social-links-footer {
     display: block;
 }
@@ -201,7 +204,7 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .web-logo-footer {
     color: #F4F4FD;
@@ -211,7 +214,7 @@
     fill: var(--additional-background-color);
 } 
 
-.form-email {
+/* .form-email {
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -224,4 +227,4 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding-left: 16px
-} 
+}  */
