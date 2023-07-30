@@ -1,4 +1,12 @@
-.about-us {
+  .second-section {
+   width: 100%;
+   padding-top: 96px;
+   padding-bottom: 96px;
+   padding-left: 16px;
+   padding-right: 16px;
+  }
+
+  .about-us {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -6,30 +14,23 @@
     letter-spacing: 0.72px;
     color: #2E2F42;
     margin-bottom: 8px;
+  }
 
-}
-
-.about-us-description {
+  .about-us-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
     font-weight: 500px;
     color: #434455;
-}
+  }
 
-.second-section-icon {
+  .second-section-icon {
     display: none;
-}
+  }
 
-.second-section-items:not(:last-child) {
+  .about-us-description:not(:last-child) {
     margin-bottom: 72px;
-}
-
-.second-section-list {
-    margin-bottom: 96px;
-}
-
-
+  }
 
 
 
@@ -39,31 +40,38 @@
  
   .goals-container { 
     min-width: 768px;
+    padding-left: 16px;
+    padding-right: 16px;
 
-    }
+  }
   .second-section-icon {
     display: none;
-   }
+  }
 
   .second-section {
     width: 100%;
-   }
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+  }
 
   .second-section-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-   }
+    margin-bottom: 0;
+  }
 
   .second-section-items {
     max-width: calc((100% - 24px) / 2);
-   }
+  }
+
   .about-us {
     text-align: start;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 700;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.72px;
     color: var(--main-text-color);
     margin-bottom: 8px;
    }
@@ -72,7 +80,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-   }
+  }
 
 }
 
@@ -80,7 +88,17 @@
 /* ======LAPTOP======== */
 
 @media screen and (min-width: 1200px) {
-   .second-section-icon {
+
+  .second-section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+
+  .second-section-list {
+    margin-bottom: 0;
+  }
+
+  .second-section-icon {
     background-color: var(--additional-background-color);
     height: 112px;
     display: flex;
@@ -88,10 +106,10 @@
     align-items: center;
     margin-bottom: 8px;
     border-radius: 4px;
-   }
+  }
 
-   .second-section-items {
+  .second-section-items {
     flex-basis:calc(( 100% - 24px * 3 ) / 4 );
-   }
+  }
    
 }

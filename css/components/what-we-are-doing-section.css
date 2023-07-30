@@ -9,6 +9,7 @@
 @media screen and (min-width: 768px) {
 .what-we-are-doing-section {
     display: none;
+    margin: 0 auto;
  } 
 }
 
@@ -20,7 +21,6 @@
         display: block;
         min-width: 1158px;
         justify-content: center;
-        margin: 0 auto;
     }
 
     .our-service-section {

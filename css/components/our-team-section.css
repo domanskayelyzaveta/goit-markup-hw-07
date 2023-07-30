@@ -1,6 +1,7 @@
 
 .team-section {
     background-color: #F4F4FD;
+    padding-top: 96px;
 }
 
 .team-container {
@@ -13,7 +14,6 @@
 
 .our-team-title {
     margin-bottom: 72px;
-    padding-top: 96px;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -102,6 +102,7 @@
         gap: 64px 24px;
         flex-wrap: wrap;
     }
+
   
 }
 
@@ -111,5 +112,9 @@
     .team-photo-list {
         column-gap: 24px;
         flex-wrap: nowrap;
+    }
+
+    .team-section {
+        padding-top: 120px;
     }
 }
