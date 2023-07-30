@@ -234,6 +234,11 @@
 
    .logo-footer-div {
         display: inline;
+        margin-bottom: 0;
+    }
+
+    .social-links-footer {
+        margin-bottom: 0;
     }
     
 } 
