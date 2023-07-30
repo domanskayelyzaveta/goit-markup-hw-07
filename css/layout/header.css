@@ -11,10 +11,8 @@
 } 
 
 .logo-link {
-    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-right: 76px;
     font-family: var(--secondary-text-font);
     color: #4D5AE5;
     font-size: 18px;
@@ -56,45 +54,21 @@
 
 /* ======TABLET======== */
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
     .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
-    .page-navigation {
-        display: flex;
-        align-items: center;
-    }
-
-    .logo-link {
-        display: block;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        margin-right: 76px;
-        font-family: var(--secondary-text-font);
-        color: #4D5AE5;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        display: flex;
-    }
-
-    .web-logo {
-        color: #2E2F42;
-        display: flex;
-    }
-
+    
     .menu,
     .address {
         display: block;
     }
    
     .menu {
+        margin: 0 auto;
         display: flex;
         column-gap: 40px;
         align-items: center;
@@ -107,7 +81,6 @@
         letter-spacing: 0.32px;
         color: var(--main-text-color);
         display: inline-block;
-        padding: 24px 0;
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -127,16 +100,19 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: -1px;
+        bottom: -20px;
         width: 100%;
         height: 4px;
         border-radius: 2px;
         background-color: var(--ocean-button-color);
     }
+    
+    .page-navigation {
+        flex-grow: 1;
+    }
 
    .address-list {
        color: var(--secondary-text-color);
-       gap: 40px;
     }
 
    .contact {
@@ -146,8 +122,7 @@
        font-weight: 400;
        line-height: 1.7;
        letter-spacing: 0.48px;
-       padding: 24px 0px;
-       margin-left: 40px;
+       margin-left: 0 auto;
        transition-property: color;
        transition-duration: 250ms;
        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -173,6 +148,7 @@
         padding-left: 156px;
         padding-right: 156px;
     }
+    
     .address-list {
         display: flex;
     }
@@ -184,9 +160,19 @@
 
     .address-list {
         color: var(--secondary-text-color);
-        gap: 0;
+    }
+     
+    .address-iteam:not(:last-child) {
+        margin-right: 40px;
     }
 
+    .menu {
+        margin: 0;
+    }
+
+    .logo-link {
+        margin-right: 76px;
+    }
 
 }
 
