@@ -28,7 +28,7 @@
     display: none;
   }
 
-  .about-us-description:not(:last-child) {
+  .second-section-items:not(:last-child) {
     margin-bottom: 72px;
   }
 
