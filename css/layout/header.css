@@ -52,13 +52,6 @@
     stroke: var(--navy-background-color);
 }
 
-.menu-item {
-    font-size: 12px;
-}
-
-.address-iteam:not(:last-child) {
-    margin-bottom: 12px;
-}
 
 
 
@@ -146,6 +139,14 @@
 
     .burger-bnt {
         display: none;
+    } 
+
+    .address-iteam{
+        font-size: 12px;
+    }
+    
+    .address-iteam:not(:last-child) {
+        margin-bottom: 12px;
     }
 
 }
