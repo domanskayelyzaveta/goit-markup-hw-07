@@ -122,8 +122,6 @@
 
    .contact {
        display: block;
-       padding-top: 24px;
-       padding-bottom: 24px;
        color: var(--secondary-text-color);
        font-style: normal;
        font-size: 12px;
